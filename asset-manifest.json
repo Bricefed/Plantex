@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Plantex/static/css/main.7586db46.chunk.css",
+    "main.js": "/Plantex/static/js/main.637d68c1.chunk.js",
+    "main.js.map": "/Plantex/static/js/main.637d68c1.chunk.js.map",
+    "runtime-main.js": "/Plantex/static/js/runtime-main.318b067a.js",
+    "runtime-main.js.map": "/Plantex/static/js/runtime-main.318b067a.js.map",
+    "static/css/2.29b63b7a.chunk.css": "/Plantex/static/css/2.29b63b7a.chunk.css",
+    "static/js/2.1f1781bd.chunk.js": "/Plantex/static/js/2.1f1781bd.chunk.js",
+    "static/js/2.1f1781bd.chunk.js.map": "/Plantex/static/js/2.1f1781bd.chunk.js.map",
+    "index.html": "/Plantex/index.html",
+    "static/css/2.29b63b7a.chunk.css.map": "/Plantex/static/css/2.29b63b7a.chunk.css.map",
+    "static/css/main.7586db46.chunk.css.map": "/Plantex/static/css/main.7586db46.chunk.css.map",
+    "static/js/2.1f1781bd.chunk.js.LICENSE.txt": "/Plantex/static/js/2.1f1781bd.chunk.js.LICENSE.txt",
+    "static/media/about.85136cd5.png": "/Plantex/static/media/about.85136cd5.png",
+    "static/media/home.e6a7f333.png": "/Plantex/static/media/home.e6a7f333.png",
+    "static/media/product1.e206d441.png": "/Plantex/static/media/product1.e206d441.png",
+    "static/media/product2.c016969f.png": "/Plantex/static/media/product2.c016969f.png",
+    "static/media/product3.fcb6ea0d.png": "/Plantex/static/media/product3.fcb6ea0d.png",
+    "static/media/product4.af8ef0a0.png": "/Plantex/static/media/product4.af8ef0a0.png",
+    "static/media/product5.65706d03.png": "/Plantex/static/media/product5.65706d03.png",
+    "static/media/product6.fec70005.png": "/Plantex/static/media/product6.fec70005.png",
+    "static/media/remixicon.css": "/Plantex/static/media/remixicon.f2616f59.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.318b067a.js",
+    "static/css/2.29b63b7a.chunk.css",
+    "static/js/2.1f1781bd.chunk.js",
+    "static/css/main.7586db46.chunk.css",
+    "static/js/main.637d68c1.chunk.js"
+  ]
+}
