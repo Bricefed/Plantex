@@ -1,0 +1,44 @@
+&__social {
+    position: absolute;
+    top: 3.2rem;
+    right: -1.6rem;
+    display: grid;
+    justify-items: center;
+    row-gap: 5.6rem;
+
+    &-follow {
+        position: relative;
+        font-weight: $font-medium;
+        font-size: $smaller-font-size;
+        color: $primary-color;
+        transform: rotate(90deg);
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 1.6rem;
+            height: 2px;
+            background: $primary-color;
+            right: -35%;
+            top: 50%;
+        }
+    }
+
+    &-links {
+        display: flex;
+        flex-direction: column;
+        row-gap: .4rem;
+        margin-top: 10px;
+        margin-right: 3px;
+    }
+
+    &-link {
+        font-size: 1.6rem;
+        color: $primary-color;
+        transition: .3s;
+
+        &:hover {
+            transform: translateX(4px);
+        }
+    }
+}

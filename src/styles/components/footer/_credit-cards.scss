@@ -1,0 +1,9 @@
+&__cards {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .8rem;
+}
+
+&__card {
+    width: 35px;
+}

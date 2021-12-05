@@ -1,0 +1,17 @@
+// MENU CLOSE
+@mixin toggle-before-after($where) {
+    content: '';
+    position: absolute;
+    #{$where}: 5px;
+    width: 20px;
+    height: 2px;
+    background: $title-color;
+    transition: transform .5s, $where .5s .5s;
+}
+
+// MENU OPEN
+@mixin toggle-open-before-after($where, $rotate) {
+    #{$where}: 0;
+    transform: rotate($rotate);
+    transition: $where .5s, transform .5s .5s;
+}

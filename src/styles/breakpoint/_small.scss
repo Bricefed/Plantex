@@ -1,0 +1,36 @@
+@media screen and (max-width: 320px) {
+    .container {
+        margin-left: $mb-1;
+        margin-right: $mb-1;
+    }
+
+    .home {
+
+        &__img {
+            width: 180px;
+        }
+
+        &__title {
+            font-size: $h1-font-size;
+        }
+    }
+
+    .steps {
+
+        &__bg {
+            padding: 3.2rem 1.6rem;
+        }
+
+        &__card {
+            padding: 2.4rem;
+        }
+    }
+
+    .product {
+
+        &__container {
+            grid-template-columns: .6fr;
+            justify-content: center;
+        }
+    }
+}

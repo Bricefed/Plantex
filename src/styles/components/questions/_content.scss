@@ -1,0 +1,18 @@
+&__content {
+    overflow: hidden;
+    height: 0;
+}
+
+&__description {
+    font-size: $small-font-size;
+    padding: 0 2rem 2rem 4rem;
+}
+
+&__item, 
+&__header,
+&__item-title,
+.ri-add-line,
+&__description,
+&__content {
+    transition: .3s;
+}

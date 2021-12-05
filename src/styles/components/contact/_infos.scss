@@ -1,0 +1,21 @@
+&__data {
+    display: grid;
+    row-gap: 3.2rem;
+    
+    .contact__subtitle {
+        font-size: $normal-font-size;
+        font-weight: $font-medium;
+        color: $text-color;
+        margin-bottom: $mb-0-5;
+    }
+
+    .contact__description {
+        display: inline-flex;
+        align-items: center;
+        column-gap: .8rem;
+        color: $title-color;
+        font-weight: $font-medium;
+
+        .contact__icon { font-size: 2rem; }
+    }
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;   // 1rem <=> 10px
+}
+
+body, 
+button,
+input, 
+textarea {
+    font-family: $body-font;
+    font-size: $normal-font-size;
+}
+
+body {
+    margin: $header-heigth 0 0 0;
+    background-color: $body-color;
+    color: $text-color;
+    transition: .3s;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+h1, h2, h3 {
+    color: $title-color;
+    font-weight: $font-semi-bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

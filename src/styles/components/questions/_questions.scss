@@ -1,0 +1,10 @@
+.questions {
+    background: $primary-color-lighten;    
+
+    &__container {
+        gap: 2.4rem;
+        padding: 2.4rem 0;
+    }
+
+    @import './group';
+}

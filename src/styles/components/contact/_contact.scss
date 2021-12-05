@@ -1,0 +1,7 @@
+.contact {
+
+    &__container { row-gap: 5.6rem; }
+
+    @import './infos';
+    @import './form';
+}

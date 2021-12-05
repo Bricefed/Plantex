@@ -1,0 +1,35 @@
+&__menu {
+
+    @media screen and (max-width: $screen-mobile) {
+        position: fixed;
+        background-color: $container-color;
+        width: 80%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        box-shadow: -2px 0 4px #1d2f271a;
+        padding-top: 65px;
+        padding-left: 50px;
+        border-radius: 15px 0 0 15px;
+        transition: .3s;
+        z-index: $z-fixed;
+    }
+
+    &.show-menu { right: 0; }
+}
+
+&__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.4rem;
+}
+
+&__link {
+    color: $title-color;
+    font-weight: $font-medium;
+    transition: .3s;
+
+    &:hover {
+        color: $primary-color;
+    }
+}

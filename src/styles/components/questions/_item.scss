@@ -1,0 +1,31 @@
+&__item {
+    background: $container-color;
+    border-radius: .4rem;
+
+    &:hover {
+        box-shadow: 0 2px 8px $boxshadow;
+    }
+
+    &-title {
+        font-size: $small-font-size;
+        font-weight: $font-medium;
+    }
+
+    &.accordion-open .questions__header,
+    &.accordion-open .questions__content {
+        background: $primary-color;
+    }
+
+    &.accordion-open &-title,
+    &.accordion-open .questions__description, 
+    &.accordion-open .ri-add-line {
+         color: white;
+    }
+
+    &.accordion-open .ri-add-line {
+        transform: rotate(225deg);
+    }
+}
+
+@import './header';
+@import './content';

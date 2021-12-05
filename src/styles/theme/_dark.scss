@@ -1,0 +1,113 @@
+body.dark-theme {
+    background-color: $body-color-dark;
+    color: $text-color-dark;
+
+    h1, h2, h3 {
+        color: $title-color-dark;
+    }
+
+    .logo {
+        color: $title-color-dark;
+
+        i {
+            color: $primary-color;
+        }
+    }
+
+    .header {
+        background: $body-color-dark;
+        
+        .nav {
+            
+            &__menu {
+                background: $container-color-dark;
+                
+                @media screen and (min-width: 767px) {
+                    background: none;
+                }
+                
+                ul li a {
+                    color: $title-color-dark;
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+
+            &__btns {
+                .change-theme {
+                    color: $title-color-dark;
+                }
+            }
+
+            &__toggle {
+                span, 
+                span::before,
+                span::after {
+                    background: $title-color-dark !important;
+                }
+            }
+        }
+
+        &.scroll-header {
+            box-shadow: 0 1px 4px hsla($hue, 4%, 4%, .5);
+        }
+    }
+
+    .steps {
+
+        &__bg {
+            background: $primary-color-dark;
+        }
+
+        &__card {
+            background: $body-color-dark;
+        }
+    }
+
+    .product {
+
+        &__circle {
+            background: $container-color-dark;
+        }
+
+        &__price {
+            color: $text-color-dark;
+        }
+    }
+
+    .questions {
+        background: $primary-color-dark;
+
+        &__item {
+            background: $container-color-dark;
+        }
+
+        &__header .ri-add-line {
+            color: $title-color-dark;
+        }
+    }
+
+    .contact {
+
+        &__subtitle {
+            color: $text-color-dark;
+        }
+
+        &__description {
+            color: $title-color-dark;
+        }
+    }
+
+    .footer {
+
+        &__subscribe {
+            background: $container-color-dark;
+        }
+
+        &__social a {
+            color: $text-color-dark;
+        }
+    }
+}

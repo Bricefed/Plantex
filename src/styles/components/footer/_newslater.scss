@@ -1,0 +1,19 @@
+&__subscribe {
+    background: $primary-color-lighten;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: .8rem;
+}
+
+&__input {
+    width: 70%;
+    padding: 0 .8rem;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+&__button {
+    padding: 1.6rem;
+}

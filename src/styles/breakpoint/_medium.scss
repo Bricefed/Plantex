@@ -1,0 +1,92 @@
+@media screen and (min-width: 576px) {
+    .steps {
+
+        &__container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .product {
+
+        &__description {
+            padding: 0 6.4rem;
+        }
+
+        &__container {
+            grid-template-columns: repeat(2, 170px);
+            justify-content: center;
+            column-gap: 8rem;
+        }
+    }
+
+    .footer {
+
+        &__subscribe {
+            width: 400px;
+        }
+    }
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        margin: 0;
+    }
+
+    .nav {
+        height: calc($header-heigth + 2.4rem);
+        column-gap: 4.8rem;
+
+        &__toggle {
+            display: none;
+        }
+
+        &__list {
+            flex-direction: row !important;
+            column-gap: 4.8rem;
+        }
+
+        &__menu {
+            margin-left: auto;
+        }
+    }
+
+    .home {
+        padding: 16rem 0 8rem;
+
+        &__img {
+            width: 280px;
+            order: 1;
+        }
+
+        &__social {
+            top: 30%;
+        }
+    }
+
+    .home__container,
+    .about__container,
+    .questions__container,
+    .contact__container,
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .questions {
+    
+        &__container {
+            align-items: flex-start;
+        }
+    
+    }
+
+    .footer {
+
+        &__container {
+            column-gap: 4.8rem;
+        }
+
+        &__subscribe {
+            width: initial;
+        }
+    }
+}

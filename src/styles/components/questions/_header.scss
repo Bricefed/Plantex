@@ -1,0 +1,12 @@
+&__header {
+    display: flex;
+    align-items: center;
+    column-gap: .8rem;
+    padding: 1.2rem .8rem;
+    cursor: pointer;
+
+    .ri-add-line {
+        font-size: 2rem;
+        color: $title-color;
+    }
+}

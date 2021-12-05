@@ -1,0 +1,38 @@
+.scrollup {
+    position: fixed;
+    background: $primary-color;
+    right: 1.6rem;
+    bottom: -30%;
+    display: inline-flex;
+    padding: 0.8rem;
+    border-radius: .4rem;
+    z-index: $z-tooltip;
+    opacity: 0.8;
+    transition: .4s;
+
+    &__icon {
+        font-size: 1.6rem;
+        color: white;
+    }
+
+    &:hover {
+        background: $primary-color-alt;
+        opacity: 1;
+    }
+
+    &.show-scroll {
+        bottom: 4.8rem;
+    }
+}
+
+// SCROLL BAR
+//
+// ::web-kit-scrollbar {
+//     width: .7rem;
+//     background: hls($hue, 4%, 53%);
+// }
+
+// ::web-kit-scrollbar-thumb {
+//     background: hls($hue, 4%, 29%);
+//     border-radius: .8rem;
+// }

@@ -1,0 +1,66 @@
+// UTILS
+$header-heigth: 5.6rem;
+
+
+// COLORS
+$hue: 152;
+$primary-color: hsl($hue, 24%, 32%);
+$primary-color-alt: hsl($hue, 24%, 28%);
+$primary-color-light: hsl($hue, 24%, 66%);
+$primary-color-lighten: hsl($hue, 24%, 92%);
+$title-color: hsl($hue, 4%, 15%);
+$text-color: hsl($hue, 4%, 35%);
+$text-color-light: hsl($hue, 4%, 55%);
+$body-color: hsl($hue, 0%, 100%);
+$container-color: #fff;
+$boxshadow: hsla($hue, 4%, 15%, .3);
+
+// DARK
+$primary-color-dark: hsl($hue, 8%, 20%);
+$title-color-dark: hsl($hue, 4%, 95%);
+$text-color-dark: hsl($hue, 4%, 75%);
+$body-color-dark: hsl($hue, 8%, 12%);
+$container-color-dark: hsl($hue, 8%, 16%);
+
+
+// FONTS
+$body-font: 'Poppins', sans-serif;
+$big-font-size: 3.2rem;
+$h1-font-size: 2.4rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.6rem;
+$normal-font-size: 1.5rem;
+$small-font-size: 1.3rem;
+$smaller-font-size: 1.2rem;
+$font-medium: 500;
+$font-semi-bold: 600;
+
+
+// RESPONSIVE-FONTS 
+@media screen and (max-width: 968px) {
+    $big-font-size: 5.6rem;
+    $h1-font-size: 3.6rem;
+    $h2-font-size: 2.4rem;
+    $h3-font-size: 2rem;
+    $normal-font-size: 1.6rem;
+    $small-font-size: 1.4rem;
+    $smaller-font-size: 1.3rem;
+}
+
+
+// MARGIN-BOTTOM
+$mb-0-5: 1rem;
+$mb-0-75: 1.2rem;
+$mb-1: 1.6rem;
+$mb-1-5: 2.4rem;
+$mb-2: 3.2rem;
+$mb-2-5: 4rem;
+
+
+// Z-INDEX
+$z-tooltip: 10;
+$z-fixed: 100;
+
+
+// MEDIAS
+$screen-mobile: 767px;

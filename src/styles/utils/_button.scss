@@ -1,0 +1,37 @@
+.button {
+    display: inline-block;
+    background: $primary-color;
+    color: white;
+    padding: 1.6rem 2.8rem;
+    border-radius: .8rem;
+    font-weight: $font-medium;
+    transition: .3s;
+
+    &:hover {
+        background: $primary-color-alt;
+
+        .button__icon {
+            transform: translateX(4px);
+        }
+    }
+
+    &__icon {
+        transition: .3s;
+    }
+
+    &--flex {
+        display: inline-flex;
+        align-items: center;
+        column-gap: 8px;
+    }
+
+    &--link {
+        background: none;
+        color: $primary-color;
+        padding: 0;
+
+        &:hover {
+            background: none;
+        }
+    }
+}

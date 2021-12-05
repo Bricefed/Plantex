@@ -1,0 +1,32 @@
+@import '../../mixins/btn-toggle';
+
+.nav__toggle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    z-index: $z-fixed;
+    
+    span {
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: $title-color;
+        top: 50%;
+        transition: width 0s .5s;
+    
+        &::before { @include toggle-before-after(top); }
+        &::after { @include toggle-before-after(bottom); }
+    }
+
+    &.open-menu {
+
+        span {
+            width: 0;
+            transition: width 0s .5s;
+            
+            &::before { @include toggle-open-before-after(top, 45deg); }
+            &::after { @include toggle-open-before-after(bottom, -45deg); }
+        }
+    }
+}

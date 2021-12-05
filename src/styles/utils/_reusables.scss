@@ -1,0 +1,33 @@
+.section {
+    padding: 8.8rem 0 1.6rem;
+
+    &__title,
+    &__title-center {
+        font-size: $h2-font-size;
+        margin-bottom: $mb-2;
+        line-height: 140%;
+        color: $title-color;
+    }
+
+    &__title-center {
+        text-align: center;
+    }
+}
+
+.container {
+    max-width: 968px;
+    margin-left: $mb-1-5;
+    margin-right: $mb-1-5;
+}
+
+.grid {
+    display: grid;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.mb-5 {
+    margin-bottom: $mb-2-5;
+}

@@ -1,0 +1,28 @@
+.footer {
+
+    &__container {
+        row-gap: 4.8rem;
+    }
+
+    &__title {
+        font-size: $h3-font-size;
+        margin-bottom: $mb-1-5;
+    }
+
+    &__information {
+        font-size: $small-font-size;
+    }
+
+    @import './newslater';
+    @import './adress';
+    @import './_contact-us.scss';
+    @import './_credit-cards.scss';
+
+    &__copyright {
+        text-align: center;
+        font-size: $smaller-font-size;
+        color: $text-color-light;
+        margin: 8rem 0 1.6rem;
+    }
+    
+}

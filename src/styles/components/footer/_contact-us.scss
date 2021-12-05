@@ -1,0 +1,14 @@
+&__social {
+    display: inline-flex;
+    column-gap: 1.2rem;
+
+    &-link {
+        font-size: 1.6rem;
+        color: $title-color;
+        transition: .3s;
+        
+        &:hover {
+            transform: translateY(-.4rem);
+        }
+    }
+}

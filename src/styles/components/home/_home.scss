@@ -1,0 +1,25 @@
+.home {
+    padding: 5.6rem 0 2rem;
+
+    &__container {
+        position: relative;
+        row-gap: 3.2rem;
+    }
+
+    &__img {
+        width: 200px;
+        justify-self: center;
+    }
+
+    &__title {
+        font-size: $big-font-size;
+        line-height: 140%;
+        margin-bottom: $mb-1;
+    }
+
+    &__description {
+        margin-bottom: $mb-2-5;
+    }
+
+    @import './follow';
+}

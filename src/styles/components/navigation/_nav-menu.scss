@@ -1,0 +1,39 @@
+.nav {
+    height: $header-heigth;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .nav__btns {
+        @import './btn-toggle';
+        display: inline-flex;
+        align-items: center;
+        column-gap: 1.6rem;
+
+        .change-theme {
+            color: $title-color;
+            font-size: 1.7rem;
+            cursor: pointer;
+        }
+    }
+    @import './menu';
+}
+
+
+// LINK ACTIVE
+// LATER...
+//
+// .active-link {
+//     position: relative;
+//     color: $primary-color;
+
+//     &::after {
+//         content: '';
+//         position: absolute;
+//         bottom: -.8rem;
+//         left: 0;
+//         width: 50%;
+//         height: 2px;
+//         background: $primary-color;
+//     }
+// }

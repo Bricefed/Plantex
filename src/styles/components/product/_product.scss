@@ -1,0 +1,14 @@
+.product {
+
+    &__description {
+        text-align: center;
+    }
+
+    &__container {
+        padding: 4.8rem 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem 4.8rem;
+    }
+
+    @import './card';
+}
